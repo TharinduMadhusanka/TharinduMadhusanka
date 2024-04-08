@@ -3,13 +3,8 @@
 <h3 align="center">Exploring the World of Bits and Bytes</h3>
 <img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
-- 🌱 I’m currently learning **React , Springboot**
 
 - 📝 Some of my articles on [https://medium.com/@tharindumadhusanka99](https://medium.com/@tharindumadhusanka99)
-
-- 💬 Ask me about **something**
-
-- ⚡ Fun fact **404: Error not found**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
