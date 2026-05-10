@@ -95,7 +95,7 @@
   <ellipse cx="200" cy="242" rx="18" ry="20" fill="#e8b88a"/>
   <!-- hair -->
   <ellipse cx="200" cy="227" rx="18" ry="9"  fill="#3d2b1f"/>
-  <ellipse cx="185" cy="233" rx="7"  rx="7" ry="10" fill="#3d2b1f"/>
+  <ellipse cx="185" cy="233" rx="7" ry="10" fill="#3d2b1f"/>
   <ellipse cx="215" cy="233" rx="7"  ry="10" fill="#3d2b1f"/>
   <!-- eyes -->
   <circle cx="193" cy="241" r="2.5" fill="#2d1b0e"/>
