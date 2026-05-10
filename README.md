@@ -127,9 +127,6 @@ I'm a full-stack developer passionate about building clean, user-friendly softwa
   <img src="https://streak-stats.demolab.com/?user=tharindumadhusanka&hide_border=true&theme=tokyonight" height="160"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharindumadhusanka&hide_border=true&theme=tokyonight" height="160"/>
-</p>
 
 ---
 
