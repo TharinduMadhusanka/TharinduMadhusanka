@@ -1,0 +1,108 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      49% { opacity: 1; }
+      50%, 99% { opacity: 0; }
+    }
+    @keyframes type1 { 0%,10%{opacity:0}11%,100%{opacity:1} }
+    @keyframes type2 { 0%,20%{opacity:0}21%,100%{opacity:1} }
+    @keyframes type3 { 0%,32%{opacity:0}33%,100%{opacity:1} }
+    @keyframes type4 { 0%,44%{opacity:0}45%,100%{opacity:1} }
+    @keyframes type5 { 0%,56%{opacity:0}57%,100%{opacity:1} }
+    @keyframes type6 { 0%,68%{opacity:0}69%,100%{opacity:1} }
+    @keyframes type7 { 0%,80%{opacity:0}81%,100%{opacity:1} }
+    .floater { animation: float 3.5s ease-in-out infinite; }
+    .cursor  { animation: blink 1s step-end infinite; }
+    .l1 { animation: type1 6s ease forwards; }
+    .l2 { animation: type2 6s ease forwards; }
+    .l3 { animation: type3 6s ease forwards; }
+    .l4 { animation: type4 6s ease forwards; }
+    .l5 { animation: type5 6s ease forwards; }
+    .l6 { animation: type6 6s ease forwards; }
+    .l7 { animation: type7 6s ease forwards; }
+  </style>
+
+  <!-- floating laptop group -->
+  <g class="floater">
+    <!-- laptop screen body -->
+    <rect x="60" y="50" width="280" height="175" rx="10" fill="#1e1e2e" stroke="#44475a" stroke-width="1.5"/>
+    <!-- titlebar -->
+    <rect x="60" y="50" width="280" height="28" rx="10" fill="#2d2d3f"/>
+    <rect x="60" y="64" width="280" height="14" fill="#2d2d3f"/>
+    <!-- traffic lights -->
+    <circle cx="80"  cy="64" r="5" fill="#ff5f57"/>
+    <circle cx="97"  cy="64" r="5" fill="#ffbd2e"/>
+    <circle cx="114" cy="64" r="5" fill="#28c840"/>
+    <!-- tab label -->
+    <text x="140" y="69" font-family="monospace" font-size="10" fill="#888">index.js</text>
+
+    <!-- code lines -->
+    <g class="l1">
+      <text x="80" y="102" font-family="monospace" font-size="11" fill="#569cd6">const</text>
+      <text x="120" y="102" font-family="monospace" font-size="11" fill="#9cdcfe"> dev</text>
+      <text x="147" y="102" font-family="monospace" font-size="11" fill="#d4d4d4"> =</text>
+      <text x="161" y="102" font-family="monospace" font-size="11" fill="#ce9178"> "Tharindu"</text>
+      <text x="256" y="102" font-family="monospace" font-size="11" fill="#d4d4d4">;</text>
+    </g>
+    <g class="l2">
+      <text x="80" y="120" font-family="monospace" font-size="11" fill="#c586c0">function</text>
+      <text x="142" y="120" font-family="monospace" font-size="11" fill="#dcdcaa"> build</text>
+      <text x="181" y="120" font-family="monospace" font-size="11" fill="#d4d4d4">() {</text>
+    </g>
+    <g class="l3">
+      <text x="100" y="138" font-family="monospace" font-size="11" fill="#c586c0">  return</text>
+      <text x="150" y="138" font-family="monospace" font-size="11" fill="#4ec9b0"> ship</text>
+      <text x="181" y="138" font-family="monospace" font-size="11" fill="#d4d4d4">(</text>
+      <text x="188" y="138" font-family="monospace" font-size="11" fill="#ce9178">great_code</text>
+      <text x="267" y="138" font-family="monospace" font-size="11" fill="#d4d4d4">);</text>
+    </g>
+    <g class="l4">
+      <text x="80" y="156" font-family="monospace" font-size="11" fill="#d4d4d4">}</text>
+    </g>
+    <g class="l5">
+      <text x="80" y="174" font-family="monospace" font-size="11" fill="#6a9955">// fuel: coffee ☕</text>
+    </g>
+    <g class="l6">
+      <text x="80" y="192" font-family="monospace" font-size="11" fill="#569cd6">const</text>
+      <text x="120" y="192" font-family="monospace" font-size="11" fill="#9cdcfe"> stack</text>
+      <text x="156" y="192" font-family="monospace" font-size="11" fill="#d4d4d4"> = [</text>
+      <text x="183" y="192" font-family="monospace" font-size="11" fill="#ce9178">"React"</text>
+      <text x="228" y="192" font-family="monospace" font-size="11" fill="#d4d4d4">,</text>
+      <text x="234" y="192" font-family="monospace" font-size="11" fill="#ce9178">"Python"</text>
+      <text x="284" y="192" font-family="monospace" font-size="11" fill="#d4d4d4">];</text>
+    </g>
+    <g class="l7">
+      <text x="80" y="210" font-family="monospace" font-size="11" fill="#d4d4d4">&gt;</text>
+      <!-- blinking cursor -->
+      <rect class="cursor" x="94" y="199" width="7" height="13" fill="#aeafad"/>
+    </g>
+  </g>
+
+  <!-- laptop base -->
+  <rect x="45"  y="225" width="310" height="10" rx="5" fill="#2d2d3f" stroke="#44475a" stroke-width="1"/>
+  <!-- trackpad -->
+  <rect x="165" y="232" width="70" height="20" rx="3" fill="#3d3d5c" stroke="#44475a" stroke-width="0.5"/>
+
+  <!-- person sitting -->
+  <!-- body -->
+  <rect x="170" y="248" width="60" height="30" rx="6" fill="#534AB7"/>
+  <!-- head -->
+  <ellipse cx="200" cy="242" rx="18" ry="20" fill="#e8b88a"/>
+  <!-- hair -->
+  <ellipse cx="200" cy="227" rx="18" ry="9"  fill="#3d2b1f"/>
+  <ellipse cx="185" cy="233" rx="7"  rx="7" ry="10" fill="#3d2b1f"/>
+  <ellipse cx="215" cy="233" rx="7"  ry="10" fill="#3d2b1f"/>
+  <!-- eyes -->
+  <circle cx="193" cy="241" r="2.5" fill="#2d1b0e"/>
+  <circle cx="207" cy="241" r="2.5" fill="#2d1b0e"/>
+  <!-- smile -->
+  <path d="M194 250 Q200 255 206 250" stroke="#c8956a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- arms -->
+  <rect x="135" y="252" width="38" height="10" rx="5" fill="#e8b88a"/>
+  <rect x="227" y="252" width="38" height="10" rx="5" fill="#e8b88a"/>
+</svg>
