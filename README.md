@@ -115,10 +115,16 @@ I'm a full-stack developer passionate about building clean, user-friendly softwa
 
 ## 📊 GitHub stats
 
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tharindumadhusanka&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" height="160"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tharindumadhusanka&theme=tokyonight" height="160"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharindumadhusanka&layout=compact&hide_border=true&theme=tokyonight" height="160"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tharindumadhusanka&theme=tokyonight" height="160"/>
+</p>
+
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=tharindumadhusanka&hide_border=true&theme=tokyonight" height="160"/>
 </p>
 
 <p align="center">
